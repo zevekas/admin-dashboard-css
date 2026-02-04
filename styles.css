@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(/fonts/nexa/Nexa-Heavy.ttf);
+}
+
+body {
+    font-family: nexa, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template: 50px 75px 1fr / 200px 1fr;
+}
+
+.sidebar {
+    grid-row: 1 / -1;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 1rem;
+}
