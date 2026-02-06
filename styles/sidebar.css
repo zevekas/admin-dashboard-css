@@ -1,0 +1,48 @@
+.sidebar {
+    grid-row: 1 / -1;
+    background-color: var(--dark-color);
+    color: white;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+
+
+.sidebar svg {
+    height: 1.5rem;
+    stroke: white;
+    margin-right: 1rem;
+}
+
+.sidebar path {
+    stroke: rgb(255, 255, 255);
+    fill: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
