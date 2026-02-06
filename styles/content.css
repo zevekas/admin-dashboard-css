@@ -3,4 +3,76 @@
 
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+}
+
+.projects-cell {
+    grid-row: 1 / -1;
+}
+
+.projects {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.cell-title {
+    margin-bottom: 0.5rem;
+}
+
+.card,
+.announcements-card,
+.trending-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    box-shadow: -6px 0 0 0 var(--dark-color),
+                2px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .text-content {
+    font-size: 0.75rem;
+    color: rgb(135, 135, 135);
+}
+
+.announcements-title {
+    font-size: 0.9rem;
+}
+
+.announcements-info {
+    font-size: 0.70rem;
+    color: rgb(135, 135, 135);
+}
+
+hr {
+    width: 100%;
+    margin: 0.3rem auto;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account img {
+    height: 50px;
+}
+
+.acc-tag {
+    font-size: 0.8rem;
+}
+
+.acc-proj {
+    font-size: 0.7rem;
+    color: rgb(91, 91, 91);
+}
+
+.account:nth-child(n + 2) {
+    margin-top: 1rem;
 }
